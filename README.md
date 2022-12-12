@@ -11,7 +11,7 @@ docker run -it --gpus all project_name:tag
 ```
 *--gpus all* so that the docker can access gpus if available in that machine
 
-- Step 3 : Go to the solution directory there you will find 3 folders for three problem designated by there name
+Step 3 : Docker bash will land inside `/solutions` directory, there you will find 3 folders for three problem designated by their name
 
 ## Problem_1
 
