@@ -10,6 +10,10 @@ Inside this folder the extracted data is kept. I have removed some unnecessary f
 
 Inside this folder the best models during training will be saved.
 
+There are some model which couldn't be uploaded due to a big size.
+The model can be downloaded from following
+[link](https://drive.google.com/drive/folders/11tJWrn3ENzx9nTViyd1UHOiC0EAQtOhU?usp=share_link).
+
 - models
 
 Inside this folder the model from last epoch will be saved.
@@ -68,3 +72,10 @@ There are some outliers too, inside the bird class there is a image which contai
 
 I have plotted the accuracy comparison inside the logs folder for both the model. Which does suggest a bit of overfitting model but processing the data as described above will resolve the overfitting issue. 
 
+I have two models in this task. First one is resnet. Accuracy metrices for this is given below. 
+![alt text](logs/resnet_iter1_accuracy_comparison.png)
+
+But the efficient model performed better.
+![alt text](logs/efficientnet_iter1_accuracy_comparison.png) 
+
+There is some some level of overfitting but this can be resolved carefully chosing the validation data. 
