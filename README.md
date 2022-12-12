@@ -9,7 +9,7 @@ docker build -t project_name:tag .
 ```
 docker run -it --gpus all project_name:tag
 ```
-*--gpus all* so that the docker can access gpus if available in that machine
+*--gpus all* so that the docker can access gpus if available in that machine. If GPU is not available or properly configure remove this part from the command
 
 Step 3 : Docker bash will land inside `/solutions` directory, there you will find 3 folders for three problem designated by their name
 

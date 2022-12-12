@@ -3,7 +3,7 @@ paths = dict(
     test_data = "dataset/test",     # the base path of the validation images
     inference_img_path = "dataset/test/berry/10_256.jpg",    # the image on which the prediction will be done
     pre_trained_model_path = "checkpoints/efficientnet_best_iter1.h5", # path of the pre-trained model if used
-    inference_model_path = "checkpoints/ensemble_model_iter1.h5",   # the path where model inference will ke kept
+    inference_model_path = "checkpoints/efficientnet_best_iter1.h5",   # the path where model inference will ke kept
 )
 
 train_params = dict(
@@ -13,6 +13,6 @@ train_params = dict(
 
 options = dict(
     train_mode = "efficientnet",     # choose one of the following three : resnet/efficientnet/ensemble
-    pre_trained = True,    # defined whether to use a pre-trained model or not
+    pre_trained = False,    # defined whether to use a pre-trained model or not
     logs_name = "iter3"     # the name under which logs will be kept
 )
