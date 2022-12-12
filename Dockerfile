@@ -32,7 +32,7 @@ RUN conda update -n base -c defaults conda && \
 ENV PATH /opt/conda/envs/classification/bin:$PATH
 
 # copy codebase to /test
-COPY assesment /assesment
+COPY solutions /solutions
 
 # make /test as workdirectory
-WORKDIR /assesment
+WORKDIR /solutions
