@@ -10,9 +10,9 @@ Inside this folder the extracted data is kept. I have removed some unnecessary f
 
 Inside this folder the best models during training will be saved.
 
-There are some model which couldn't be uploaded due to a big size.
+*There are some model which couldn't be uploaded due to a big size.
 The model can be downloaded from following
-[link](https://drive.google.com/drive/folders/11tJWrn3ENzx9nTViyd1UHOiC0EAQtOhU?usp=share_link).
+[link](https://drive.google.com/drive/folders/11tJWrn3ENzx9nTViyd1UHOiC0EAQtOhU?usp=share_link).*
 
 - models
 
